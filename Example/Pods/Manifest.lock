@@ -1,0 +1,16 @@
+PODS:
+  - ComToolLib (0.1.0)
+
+DEPENDENCIES:
+  - ComToolLib (from `../`)
+
+EXTERNAL SOURCES:
+  ComToolLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ComToolLib: 08d13c100053c2b8b45b74b7614a99ecf672a7f0
+
+PODFILE CHECKSUM: b7506c58c5c96ffed7e073bca481ab7bb10fcfad
+
+COCOAPODS: 1.15.2

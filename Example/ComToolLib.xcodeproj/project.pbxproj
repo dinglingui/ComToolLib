@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17C585826BB2A0568E2074B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17C585826BB2A0568E2074B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3F0207946BCF1C59020BE86B /* Pods-ComToolLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComToolLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ComToolLib_Tests/Pods-ComToolLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		40910C616980A13D6407896F /* Pods_ComToolLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComToolLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		415F6BA3F22F6B01D07ACC96 /* Pods-ComToolLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComToolLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ComToolLib_Example/Pods-ComToolLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7EF35DD0BE28772A48805537 /* Pods-ComToolLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComToolLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ComToolLib_Tests/Pods-ComToolLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9553C5EC12C3CC8B9B0E79BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D4AF026926CD8C6D3DC68495 /* ComToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ComToolLib.podspec; path = ../ComToolLib.podspec; sourceTree = "<group>"; };
+		9553C5EC12C3CC8B9B0E79BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4AF026926CD8C6D3DC68495 /* ComToolLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ComToolLib.podspec; path = ../ComToolLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3750829A4509CCF8B75B929 /* Pods_ComToolLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComToolLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				7EF35DD0BE28772A48805537 /* Pods-ComToolLib_Tests.debug.xcconfig */,
 				3F0207946BCF1C59020BE86B /* Pods-ComToolLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
